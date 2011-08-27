@@ -1,0 +1,5 @@
+A collection of scripts and queries that can be run on a Riak cluster.
+
+examples/ - contains Riak queries for analyzing Apache logs and doing a distributed word count.
+
+js/ - JavaScript files used in the example queries that implement the corresponding map and reduce phases.
