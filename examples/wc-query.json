@@ -1,0 +1,8 @@
+{
+	"inputs": [["docs", "test"]],
+	"query": [
+		{ "map": { "language": "javascript", "name": "WordCount.mapWords" } },
+		{ "reduce": { "language": "javascript", "name": "WordCount.reduceWords" } }
+	],
+	"timeout": 30000
+}

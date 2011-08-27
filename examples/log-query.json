@@ -1,0 +1,7 @@
+{
+	"inputs": [["logs", "2011-08-27"]],
+	"query": [
+		{ "map": { "language": "javascript", "name": "LogAnalyzer.mapLogEntry" } },
+		{ "reduce": { "language": "javascript", "name": "LogAnalyzer.reduceLogEntry" } }
+	]
+}
